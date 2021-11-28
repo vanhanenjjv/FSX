@@ -9,6 +9,7 @@
     <Compile Include="Identity.fs" />
     <Compile Include="Either.fs" />
     <Compile Include="AsyncEither.fs" />
+    <Compile Include="Function.fs" />
   </ItemGroup>
 
 </Project>
