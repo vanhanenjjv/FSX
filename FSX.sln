@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30114.105
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{F203B341-C943-447B-90ED-8ED597C59728}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "FSX", "src\FSX\FSX.fsproj", "{D2C8ADB3-BCB7-4233-864D-5BA5E0F6F894}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "FSX.Tests", "src\FSX.Tests\FSX.Tests.fsproj", "{0E544CF3-41D0-4EAA-918A-A8D655F94D39}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D2C8ADB3-BCB7-4233-864D-5BA5E0F6F894}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D2C8ADB3-BCB7-4233-864D-5BA5E0F6F894}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D2C8ADB3-BCB7-4233-864D-5BA5E0F6F894}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D2C8ADB3-BCB7-4233-864D-5BA5E0F6F894}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0E544CF3-41D0-4EAA-918A-A8D655F94D39}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E544CF3-41D0-4EAA-918A-A8D655F94D39}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E544CF3-41D0-4EAA-918A-A8D655F94D39}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E544CF3-41D0-4EAA-918A-A8D655F94D39}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D2C8ADB3-BCB7-4233-864D-5BA5E0F6F894} = {F203B341-C943-447B-90ED-8ED597C59728}
+		{0E544CF3-41D0-4EAA-918A-A8D655F94D39} = {F203B341-C943-447B-90ED-8ED597C59728}
+	EndGlobalSection
+EndGlobal
