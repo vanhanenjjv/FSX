@@ -6,6 +6,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Include="Identity.fs" />
     <Compile Include="Either.fs" />
     <Compile Include="AsyncEither.fs" />
   </ItemGroup>

@@ -19,7 +19,7 @@ module AsyncEither =
              | Left a -> ab a |> Left
              | Right r -> r |> Right }
 
-  let chain (ab: 'a -> AsyncEither<'l, 'b>) e =
+  let chain ab e =
     async {
       let! e' = e
       return! match e' with
